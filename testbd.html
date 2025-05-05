@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ma Collection de BD</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #343a40;
+    }
+
+    .bd-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 40px auto;
+    }
+
+    .bd-item {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .bd-item img {
+      max-width: 100%;
+      height: auto;
+      border-bottom: 1px solid #eee;
+    }
+
+    .bd-title {
+      font-size: 1.1rem;
+      color: #212529;
+      padding: 10px 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ma Collection de Bandes Dessinées</h1>
+  <div class="bd-list">
+    <div class="bd-item">
+      <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/Asterix_le_gaulois.png" alt="Astérix – Le Gaulois">
+      <div class="bd-title">Astérix – Le Gaulois</div>
+    </div>
+    <div class="bd-item">
+      <img src="https://upload.wikimedia.org/wikipedia/en/1/1d/Tintin_Secret_of_the_Unicorn_Cover.jpg" alt="Tintin – Le Secret de la Licorne">
+      <div class="bd-title">Tintin – Le Secret de la Licorne</div>
+    </div>
+    <div class="bd-item">
+      <img src="https://www.bedetheque.com/media/Couvertures/LanfeustDeTroy1_05012002.jpg" alt="Lanfeust de Troy – Tome 1">
+      <div class="bd-title">Lanfeust de Troy – Tome 1</div>
+    </div>
+    <div class="bd-item">
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/65/BlakeMortimerMarqueJaune.jpg" alt="Blake et Mortimer – La Marque Jaune">
+      <div class="bd-title">Blake et Mortimer – La Marque Jaune</div>
+    </div>
+  </div>
+</body>
+</html>
